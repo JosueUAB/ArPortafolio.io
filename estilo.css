@@ -536,7 +536,7 @@ footer .contenido .redes a:hover{
     #inicio .contenido .fila .col .info{
         display: block;
         height: auto;
-        text-align: center;
+        text-align: justify;
     }
     #inicio .contenido .fila .col .info h2{
         width: auto;
