@@ -385,3 +385,40 @@ header button{
     font-size: 14px;
     margin-bottom: 20px;
 }
+
+/* sección contacto */
+#contacto{
+    padding: 50px 10px;
+    position: relative;
+    height: 100vh   ;
+}
+#contacto .contenido{
+    display: flex;
+    justify-content: end;
+    text-align: center;
+}
+#contacto form{
+    max-width: 500px;
+    width: 100%;
+}
+#contacto form p{
+    margin-bottom: 30px;
+} 
+#contacto form input,
+#contacto form textarea {
+    width: 100%;
+    display: block;
+    background-color: transparent;
+    border: 3px solid #a35ff9;
+    padding: 10px;
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+    outline: none;
+}
+#contacto .img-subs{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    max-width: 600px;
+}
