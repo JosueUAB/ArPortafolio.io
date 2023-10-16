@@ -327,3 +327,61 @@ header button{
     max-width: 400px;
     margin: auto;
 }
+
+
+
+
+/* sección proyectos */
+#proyectos{
+    padding: 50px 10px;
+}
+#proyectos .contenido .fila{
+    display: flex;
+    justify-content: space-between;
+}
+#proyectos .contenido .fila .col{
+    border: 2px solid #fff;
+    padding: 60px 20px 20px 20px;
+    position: relative;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 20px;
+    transition: .5s;
+}
+#proyectos .contenido .fila .col:hover{
+    box-shadow: 0px 0px 20px #a35ff9;
+    transform: scale(1.05);
+}
+#proyectos .contenido .fila .col .numero-proyecto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    color: #000;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: .4s;
+}
+#proyectos .contenido .fila .col:hover .numero-proyecto{
+    left: 50%;
+    transform: translateX(-50%);
+}
+#proyectos .contenido .fila .col .titulo-proyecto{
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+#proyectos .contenido .fila .col hr{
+    width: 50px;
+    background-color: #a35ff9;
+    border: none;
+    height: 2px;
+    margin: 20px auto;
+}
+#proyectos .contenido .fila .col p{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
