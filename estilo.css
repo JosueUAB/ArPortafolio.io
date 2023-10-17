@@ -519,6 +519,20 @@ footer .contenido .redes a:hover{
         display: block;
         
     }
+    header nav.mostrar { 
+        display: block;
+        position: absolute;
+        right: 10px;
+        top: 55px;
+        background-color: #1d1d1d;
+        border: 1px solid #555555;
+        z-index: 10;
+    }
+
+    header nav.mostrar ul { 
+        display: block;
+    }
+
     #inicio .contenido .fila{
         display: block;
     }
