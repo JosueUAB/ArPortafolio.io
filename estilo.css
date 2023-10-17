@@ -334,6 +334,7 @@ header button{
 /* sección proyectos */
 #proyectos{
     padding: 50px 10px;
+    margin-top :200px;
 }
 #proyectos .contenido .fila{
     display: flex;
@@ -536,7 +537,7 @@ footer .contenido .redes a:hover{
     #inicio .contenido .fila .col .info{
         display: block;
         height: auto;
-        text-align: justify;
+        text-align: center;
     }
     #inicio .contenido .fila .col .info h2{
         width: auto;
